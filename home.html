@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile4U</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+</head>
+<body>
+  <!-- Header section with banner -->
+  <header>
+    <h1>Mobile4U</h1>
+  </header>
+
+  <!-- Navigation section with links to other pages -->
+  <div class="col-12 col-s-2">
+  <nav>
+    <ul >
+      <li><a href="home.html" class="l">Home</a></li>
+      <li><a href="aboutUs.html" class="l">About Us</a></li>
+      <li><a href="contactUs.html" class = "l">Contact Us</a></li>
+      <li><a href="products.html" class="l">Products</a></li>
+      
+      
+    </ul>
+  </nav>
+</div>
+
+  <!-- Banner section with address, phone number, and location -->
+  
+  <section class="banner">
+    <p class="j">Get the latest and greatest mobile devices at Mobile4U</p>
+  </section>
+
+  <!-- Main content section -->
+  <main>
+    <h2 class="j">Welcome to Mobile4U</h2>
+    <p class="j">Experience the latest in mobile technology with our range of smartphones, tablets, and accessories. We offer the best devices from the top brands, including Apple, Samsung, and more. Our expert staff are always on hand to help you find the perfect device to suit your needs.</p>
+
+    <form action="/shop" method="get">
+        <style>
+            
+        </style>
+       <!-- Form fields go here -->
+        <button type="submit" class="l"><a href="products.html" style= "text-decoration: none;color: #fff;">Shop Now</a></button>
+      </form>
+
+    <!-- Product section with pictures and ratings/comments -->
+    <section >
+      <div class="product ">
+        <img src="Images/Apple-iPhone-14-Pro_.jpg" alt="Iphone 14">
+        <div class="rating">
+          <span>&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+        </div>
+        <div class="comments">
+          <h3 class="j">Iphone 14</h3>
+          <p class="j">128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM</p>
+          <button class="add-to-cart ">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="Images/A-51.jpeg" alt="A-51">
+        <div class="rating">
+          <span>&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+        </div>
+        <div class="comments j">
+          <h3>A-51</h3>
+          <p>4G: 4, 6, or 8 GB RAM 5G: 6 or 8 GB RAM</p>
+          <button class="add-to-cart ">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="Images/techno.jpeg" alt="Tecno">
+        <div class="rating">
+          <span>&#9733; &#9733; &#9734; &#9734; &#9734;</span>
+        </div>
+        <div class="comments j">
+          <h3>Tecno 10  Spark</h3>
+          <p>A great phone.</p>
+          <button class="add-to-cart ">Add to Cart</button>
+
+        </div>
+      </div> 
+
+        <div class="product">
+            <img src="Images/nokia.jpeg" alt="Nokia">
+            <div class="rating">
+              <span>&#9733; &#9734; &#9734; &#9734; &#9734;</span>
+            </div>
+            <div class="comments j">
+              <h3>Nokia</h3>
+              <p>Not a great phone, not recomended.</p>
+              <button class="add-to-cart">Add to Cart</button>
+
+            </div>
+        </div>
+          
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p class="j">&copy; 2023 Mobile4U. All rights reserved.</p>
+  </footer>
+  <script>
+    
+    const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+    addToCartButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // handle add to cart logic here
+        alert('Product added to cart.');
+      });
+    });
+  </script>
+  
+</body>
+</html>

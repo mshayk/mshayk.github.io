@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Global styles */
+    body {
+      background-color: #f2f2f2;
+      color: #333;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      color: #ff5722;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #fff;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #333;
+    }
+
+    /* Main content styles */
+    main {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h2 {
+      color: #ff5722;
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    form {
+      margin-top: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: left;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    input[type="submit"] {
+      background-color: #ff5722;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #f44336;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .contact-info div {
+      margin: 10px;
+      text-align: center;
+    }
+    .contact-info i {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #ff5722;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  
+ <!-- Navigation section with links to other pages -->
+
+  <nav class="col-12 col-s-2">
+    <ul >
+      <li><a href="home.html" class="l">Home</a></li>
+      <li><a href="aboutUs.html" class="l">About Us</a></li>
+      <li><a href="contactUs.html" class = "l">Contact Us</a></li>
+      <li><a href="products.html" class="l">Products</a></li>
+      
+      
+    </ul>
+  </nav>
+
+
+  <!-- Banner section with address, phone number, and location -->
+  
+  <section class="banner ">
+    <p >For Complaints</p>
+  </section>
+  <!-- Main content section -->
+  <main class="j">
+    <h2>Get in touch</h2>
+    <div class="contact-info col-7 col-s-9">
+      <div>
+        <i class="fas fa-envelope"></i>
+        <p>Email us</p>
+        <a href="mailto:info@example.com">Mobile4U@hotmail.com</a>
+      </div>
+      <div class="col-3 col-s-12" >
+        <i class="fas fa-phone"></i>
+        <p>Call us</p>
+        <a href="tel:+1234567890">+961 80 123456</a>
+      </div>
+      <div>
+        <i class="fab fa-linkedin"></i>
+        <p>Connect with us on LinkedIn</p>
+        <a href="#">Follow us</a>
+      </div>
+    </div>
+    <form class="col-8 col-s-11">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email"  required>
+      <label for="complaint">Complaint</label>
+      <textarea id="complaint" name="complaint" rows="5" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+    
+    <footer style="padding: 10px;">
+      <p>&copy; 2023 Mobile4U. All rights reserved.</p>
+    </footer> 
+  </main>
+
+  <!-- JavaScript code to toggle between light and dark modes -->
+ 
+</script>
+  </script>
+
+</body>
+</html>
